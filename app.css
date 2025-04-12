@@ -64,6 +64,11 @@ img{
     opacity: 1;
 }
 
+.banniere{
+    height: 550px;
+    background: url("img/image-header.jpg") center center / cover no-repeat;
+}
+
 @media screen and (max-width:390px) {
     .header{
         flex-direction: column;
@@ -84,6 +89,10 @@ img{
     .header .social{
         margin-top: 20px;
     }
+
+    .banniere{
+        height: 380px;
+    }
 }
 
 @media screen and (max-width:835px) {
@@ -98,5 +107,9 @@ img{
 
   .header .social{
     margin-top: 25px;
+  }
+
+  .banniere{
+    height: 430px;
   }
 }
