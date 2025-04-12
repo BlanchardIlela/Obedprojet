@@ -34,6 +34,7 @@ img{
     position: fixed;
     background: #24292F;
     color: #CCCCCC;
+    z-index: 100;
 }
 
 .header .logo a{
@@ -67,6 +68,60 @@ img{
 .banniere{
     height: 550px;
     background: url("img/image-header.jpg") center center / cover no-repeat;
+}
+
+.main{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.main p{
+    padding-bottom: 25px;
+    text-align: justify;
+    font-size: .905rem;
+}
+
+.main .title_information{
+    padding: 50px 0;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #c2bbbb;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.main .main_article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main .main_article img{
+    width: 50%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #24292F;
+    padding: 20px 0;
+    margin-top: 200px;
+}
+
+.footer  .social a{
+    padding: 0 10px;
+    opacity: .5;
+}
+
+.footer  .social a:hover{
+    opacity: 1;
+}
+
+.footer span{
+    color: rgb(243, 156, 156);
 }
 
 @media screen and (max-width:390px) {
